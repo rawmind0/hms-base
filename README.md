@@ -3,7 +3,7 @@
 hms-base
 =============
 
-A base image to run anything based in [alpine][alpine] 3.x. It add basic software bash libressl curl fping and libcap.
+A base image to [hms][hms] based in [alpine][alpine] 3.x. It add basic software bash libressl curl fping and libcap.
 
 ## Build
 
@@ -20,4 +20,5 @@ docker build -t rawmind/hms-base:<version> .
 
 To use this image include `FROM rawmind/hms-base` at the top of your `Dockerfile`.
 
-[alpine]: https://alpinelinux.org/
+[alpine]: https://alpinelinux.org/\
+[hms]: https://github.com/4km3/hms
